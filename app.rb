@@ -6,7 +6,7 @@ class App < Sinatra::Base
     set :session_secret, "My amazing cat"
   end
 
-  get "/" do 
+  get "/" do
     erb :"index"
-  end 
+  end
 end
