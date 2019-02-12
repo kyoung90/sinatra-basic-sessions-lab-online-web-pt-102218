@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   configure do
-    enable :sessiona
+    enable :sessions
     set :session_secret, "My amazing cat"
   end
 
